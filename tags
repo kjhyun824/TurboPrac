@@ -1,0 +1,134 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Cand_sub_t	LevelSub.h	/^typedef std::map<std::pair<dir_vertex_t,vertex_t>, std::vector<vertex_t> > Cand_sub_t;$/;"	t
+CounterStart	TimeUtility.h	/^	__int64 CounterStart = 0;$/;"	m	class:TimeUtility
+DataGraphFileName	LevelSub.h	/^	std::string DataGraphFileName;$/;"	m	class:LevelSub
+FindNEC	LevelSub.cpp	/^std::vector<std::vector<vertex_t> > LevelSub::FindNEC(std::vector<vertex_t> v) {$/;"	f	class:LevelSub
+GenPerm	LevelSub.cpp	/^void LevelSub::GenPerm(int idx) {$/;"	f	class:LevelSub
+GetCounterMicro	TimeUtility.cpp	/^double TimeUtility::GetCounterMicro()$/;"	f	class:TimeUtility
+GetCounterMill	TimeUtility.cpp	/^double TimeUtility::GetCounterMill(){$/;"	f	class:TimeUtility
+GetRuntime	runtimecounter.cpp	/^double Runtimecounter::GetRuntime(){$/;"	f	class:Runtimecounter
+Graph	LevelSub.h	/^typedef adjacency_list<vecS, vecS, undirectedS, property<vertex_index_t, int>, property<edge_index_t, int> > Graph;$/;"	t
+INPUT_COMMAND_PARSER	InputCommandLineParser.h	2;"	d
+InputCommandLineParser	InputCommandLineParser.h	/^class InputCommandLineParser{$/;"	c
+IsJoinable	LevelSub.cpp	/^bool LevelSub::IsJoinable(vertex_t v, vertex_t C_i) {$/;"	f	class:LevelSub
+LEVEL_SUB	LevelSub.h	2;"	d
+LevelSub	LevelSub.cpp	/^LevelSub::LevelSub(const std::string DataFileName, const std::string QueryFileName, const int topk, const int debug) :$/;"	f	class:LevelSub
+LevelSub	LevelSub.h	/^class LevelSub{$/;"	c
+LoadGraph	LevelSub.cpp	/^void LevelSub::LoadGraph()$/;"	f	class:LevelSub
+LoadQuery	LevelSub.cpp	/^void LevelSub::LoadQuery()$/;"	f	class:LevelSub
+NEC_data_list	LevelSub.h	/^	std::vector<NEC_vertex_map_t> NEC_data_list;$/;"	m	class:LevelSub
+NEC_label	LevelSub.h	/^	std::map<dir_vertex_t,int> NEC_label;$/;"	m	class:LevelSub
+NEC_tree_list	LevelSub.h	/^	std::vector<dirGraph> NEC_tree_list; $/;"	m	class:LevelSub
+NEC_vertex_map_t	LevelSub.h	/^typedef std::map<dir_vertex_t, std::vector<vertex_t> > NEC_vertex_map_t;$/;"	t
+NLF	LevelSub.cpp	/^bool LevelSub::NLF(vertex_t u, vertex_t v) {$/;"	f	class:LevelSub
+NextComb	LevelSub.cpp	/^void LevelSub::NextComb(dir_vertex_t u,std::set<vertex_t> C) {$/;"	f	class:LevelSub
+NextPerm	LevelSub.cpp	/^bool LevelSub::NextPerm(dir_vertex_t u_i) {$/;"	f	class:LevelSub
+PCFreq	TimeUtility.h	/^	double PCFreq = 0.0;$/;"	m	class:TimeUtility
+QueryGraphFileName	LevelSub.h	/^	std::string QueryGraphFileName;$/;"	m	class:LevelSub
+RUNTIMECOUNTER_H_	runtimecounter.h	2;"	d
+Runtimecounter	runtimecounter.cpp	/^Runtimecounter::Runtimecounter(){$/;"	f	class:Runtimecounter
+Runtimecounter	runtimecounter.h	/^class Runtimecounter{$/;"	c
+STRING_UTILITY	StringUtility.h	6;"	d
+StartCounterMicro	TimeUtility.cpp	/^void TimeUtility::StartCounterMicro()$/;"	f	class:TimeUtility
+StartCounterMill	TimeUtility.cpp	/^void TimeUtility::StartCounterMill(){$/;"	f	class:TimeUtility
+String_Utility	StringUtility.h	/^class String_Utility{$/;"	c
+SubgraphSerach	LevelSub.cpp	/^void LevelSub::SubgraphSerach() {$/;"	f	class:LevelSub
+TIME_UTILITY	TimeUtility.h	6;"	d
+TimeUtility	TimeUtility.h	/^class TimeUtility{$/;"	c
+added	LevelSub.h	/^	std::map<int, int> added;$/;"	m	class:LevelSub
+adjacency_iterator_t	LevelSub.h	/^typedef graph_traits<Graph>::adjacency_iterator adjacency_iterator_t;$/;"	t
+badv	LevelSub.h	/^	int badv = false;$/;"	m	class:LevelSub
+buildSignature	LevelSub.cpp	/^inline void LevelSub::buildSignature(int u_label, int v, int u)$/;"	f	class:LevelSub
+candSetList	LevelSub.h	/^	std::vector<std::set<int> > candSetList;$/;"	m	class:LevelSub
+cand_key_pair	LevelSub.h	/^	std::map<dir_vertex_t,std::set<vertex_t> > cand_key_pair;$/;"	m	class:LevelSub
+cand_sub	LevelSub.h	/^	Cand_sub_t cand_sub;$/;"	m	class:LevelSub
+cand_sub_size	LevelSub.cpp	/^int LevelSub::cand_sub_size(dir_vertex_t u) {$/;"	f	class:LevelSub
+candidates	LevelSub.h	/^	std::vector<std::vector<int> > candidates;$/;"	m	class:LevelSub
+chosen	LevelSub.h	/^	std::vector<bool> chosen;$/;"	m	class:LevelSub
+clearCR	LevelSub.cpp	/^void LevelSub::clearCR(dir_vertex_t u, vertex_t v) {$/;"	f	class:LevelSub
+cmdOptionExists	InputCommandLineParser.cpp	/^bool InputCommandLineParser::cmdOptionExists(int argc, char * argv[], const std::string & option){$/;"	f	class:InputCommandLineParser
+d_bitset	LevelSub.h	/^typedef dynamic_bitset<> d_bitset;$/;"	t
+data_visited	LevelSub.h	/^	std::map<vertex_t,bool> data_visited;$/;"	m	class:LevelSub
+debug	main.cpp	/^int debug;$/;"	v
+debugflag	LevelSub.h	/^	bool debugflag = false;$/;"	m	class:LevelSub
+dirGraph	LevelSub.h	/^typedef adjacency_list<vecS, vecS, directedS, property<vertex_index_t, int>, property<edge_index_t, int> > dirGraph;$/;"	t
+dir_adjacency_iterator_t	LevelSub.h	/^typedef graph_traits<dirGraph>::adjacency_iterator dir_adjacency_iterator_t;$/;"	t
+dir_edge_iterator_t	LevelSub.h	/^typedef graph_traits<dirGraph>::edge_iterator dir_edge_iterator_t;$/;"	t
+dir_edge_t	LevelSub.h	/^typedef graph_traits<dirGraph>::edge_descriptor dir_edge_t;$/;"	t
+dir_vertex_iterator_t	LevelSub.h	/^typedef graph_traits<dirGraph>::vertex_iterator dir_vertex_iterator_t;$/;"	t
+dir_vertex_t	LevelSub.h	/^typedef graph_traits<dirGraph>::vertex_descriptor dir_vertex_t;$/;"	t
+edge_iterator_t	LevelSub.h	/^typedef graph_traits<Graph>::edge_iterator edge_iterator_t;$/;"	t
+edge_t	LevelSub.h	/^typedef graph_traits<Graph>::edge_descriptor edge_t;$/;"	t
+embeddingList	LevelSub.h	/^	std::vector<std::vector<int> > embeddingList;$/;"	m	class:LevelSub
+exploreCR	LevelSub.cpp	/^bool LevelSub::exploreCR(dir_vertex_t u, std::vector<vertex_t> V, vertex_t v_parent) {$/;"	f	class:LevelSub
+extract_ints	StringUtility.cpp	/^std::string extract_ints(std::ctype_base::mask category, std::string str, std::ctype<char> const& facet)$/;"	f
+extract_ints	StringUtility.cpp	/^std::string extract_ints(std::string str)$/;"	f
+falseu	LevelSub.h	/^	int falseu = -1;$/;"	m	class:LevelSub
+find_path	LevelSub.cpp	/^std::vector<dir_vertex_t> LevelSub::find_path(dir_vertex_t u) {$/;"	f	class:LevelSub
+g	LevelSub.h	/^	Graph g;\/\/Data graph$/;"	m	class:LevelSub
+gCT	LevelSub.h	/^	std::vector<std::vector<bool> > gCT; \/\/global conflict table$/;"	m	class:LevelSub
+gconflict	LevelSub.h	/^	std::vector<bool>  gconflict;$/;"	m	class:LevelSub
+genCandSetList	LevelSub.cpp	/^void LevelSub::genCandSetList(std::vector<std::set<int> > &candSetList, int startIndex, std::vector<int> &label_q)$/;"	f	class:LevelSub
+genCandSetList2	LevelSub.cpp	/^void LevelSub::genCandSetList2(std::vector<std::set<int> > &candSetList, int startIndex)$/;"	f	class:LevelSub
+genCandSetList3	LevelSub.cpp	/^void LevelSub::genCandSetList3(std::vector<std::set<int> > &candSetList, int startIndex, std::vector<int> &label_q)$/;"	f	class:LevelSub
+genOverlapQ	LevelSub.cpp	/^void LevelSub::genOverlapQ(int start, int remain, std::vector<int> &overlapQ, std::vector<std::vector<int> > &QoverlapList)$/;"	f	class:LevelSub
+getAllEmbList	LevelSub.cpp	/^bool LevelSub::getAllEmbList(int startIndex, std::vector<int> &overlapEmb, std::vector<std::vector<int> > &overlapEmbList, $/;"	f	class:LevelSub
+getAllEmbList2	LevelSub.cpp	/^void LevelSub::getAllEmbList2(int startIndex, std::vector<int> &overlapEmb, std::vector<std::vector<int> > &overlapEmbList,$/;"	f	class:LevelSub
+getCmdOption	InputCommandLineParser.cpp	/^char* InputCommandLineParser::getCmdOption(int argc, char * argv[], const std::string & option)$/;"	f	class:InputCommandLineParser
+getPairSorted	LevelSub.cpp	/^void LevelSub::getPairSorted(std::vector<int> &overlapQ, std::vector<int> &sorted, std::vector<std::pair<int, int> >& newSorted, Graph &q)$/;"	f	class:LevelSub
+getPairSorted2	LevelSub.cpp	/^void LevelSub::getPairSorted2(std::vector<int> &overlapQ, std::vector<int> &sorted, std::vector<std::pair<int, int> >& newSorted, Graph &q)$/;"	f	class:LevelSub
+getPairSorted3	LevelSub.cpp	/^void LevelSub::getPairSorted3(std::vector<int> &rsorted, std::vector<int> &sorted, std::vector<std::pair<int, int> >& newSorted,$/;"	f	class:LevelSub
+help	main.cpp	/^void help(){$/;"	f
+isEdge	LevelSub.cpp	/^bool LevelSub::isEdge(vertex_t v, int lv, vertex_t u, int lu)$/;"	f	class:LevelSub
+isEdgeCount	LevelSub.h	/^	long isEdgeCount = 0;$/;"	m	class:LevelSub
+isEdgeq	LevelSub.cpp	/^bool LevelSub::isEdgeq(vertex_t v, int lv, vertex_t u, int lu, Graph &q)$/;"	f	class:LevelSub
+isJoinble	LevelSub.cpp	/^bool LevelSub::isJoinble(Graph &q, vertex_t u, vertex_t v, std::vector<int> &embedding, std::vector<int> &label_q)$/;"	f	class:LevelSub
+isJoinbleCount	LevelSub.h	/^	long isJoinbleCount = 0;$/;"	m	class:LevelSub
+k	LevelSub.h	/^	int k;$/;"	m	class:LevelSub
+k	main.cpp	/^int k;$/;"	v
+label_q_list	LevelSub.h	/^	std::vector<std::vector<int> > label_q_list;$/;"	m	class:LevelSub
+label_v	LevelSub.h	/^	std::map<vertex_t,int> label_v;$/;"	m	class:LevelSub
+lbRm	LevelSub.h	/^	std::vector<int> lbRm; \/\/ label remain$/;"	m	class:LevelSub
+lbnum	LevelSub.h	/^	std::map<int, int> lbnum;$/;"	m	class:LevelSub
+main	main.cpp	/^int main(int argc, char** argv)$/;"	f
+matched	LevelSub.h	/^	d_bitset matched;\/\/global matched mask => no overlap$/;"	m	class:LevelSub
+matchingOrder	LevelSub.cpp	/^void LevelSub::matchingOrder() {$/;"	f	class:LevelSub
+matching_order_list	LevelSub.h	/^	std::vector<std::vector<dir_vertex_t> > matching_order_list;$/;"	m	class:LevelSub
+my_it	LevelSub.h	/^typedef std::map<std::pair<dir_vertex_t,vertex_t>, std::vector<vertex_t> >::iterator my_it;$/;"	t
+nbRm	LevelSub.h	/^	std::vector<int> nbRm;\/\/ neighbor remain$/;"	m	class:LevelSub
+nec_tree_child	LevelSub.cpp	/^dir_vertex_t nec_tree_child(dir_vertex_t u, int idx) {$/;"	f
+neighborhoodSignature	LevelSub.h	/^	std::vector<std::map<int, std::vector<int> > > neighborhoodSignature;$/;"	m	class:LevelSub
+nodeGraphSearchCount	LevelSub.h	/^	long nodeGraphSearchCount = 0;$/;"	m	class:LevelSub
+non_tree_edge_num	LevelSub.cpp	/^double LevelSub::non_tree_edge_num(dir_vertex_t u) {$/;"	f	class:LevelSub
+nsFilter	LevelSub.cpp	/^bool LevelSub::nsFilter(vertex_t v, vertex_t u)$/;"	f	class:LevelSub
+nsFilterCount	LevelSub.h	/^	long nsFilterCount = 0;$/;"	m	class:LevelSub
+nsQ	LevelSub.h	/^	std::vector<std::map<int, std::set<int> > > nsQ;$/;"	m	class:LevelSub
+parent_map	LevelSub.h	/^	std::map<dir_vertex_t,dir_vertex_t> parent_map;$/;"	m	class:LevelSub
+q_list	LevelSub.h	/^	std::vector<Graph> q_list;\/\/queries $/;"	m	class:LevelSub
+queryGraphFileName	main.cpp	/^std::string queryGraphFileName;$/;"	v
+queryOrder	LevelSub.cpp	/^void LevelSub::queryOrder(Graph &q, std::vector<int> &label_q, std::vector<int>& sorted)$/;"	f	class:LevelSub
+randomShuffle	LevelSub.cpp	/^void LevelSub::randomShuffle()$/;"	f	class:LevelSub
+readIntegersFromString	StringUtility.cpp	/^void String_Utility::readIntegersFromString(string stringContents, std::vector<int>& numbers){$/;"	f	class:String_Utility
+rewriteToNECTree	LevelSub.cpp	/^void LevelSub::rewriteToNECTree() {$/;"	f	class:LevelSub
+set_t	LevelSub.h	/^	typedef std::set<int>::iterator set_t;$/;"	t	class:LevelSub
+showCount	LevelSub.cpp	/^void LevelSub::showCount()$/;"	f	class:LevelSub
+showEmbedding	LevelSub.cpp	/^inline void LevelSub::showEmbedding(const std::vector<int> &embedding)$/;"	f	class:LevelSub
+showEmbedding	LevelSub.cpp	/^inline void LevelSub::showEmbedding(double time, bool flag)$/;"	f	class:LevelSub
+showflag	LevelSub.h	/^	bool showflag = false;$/;"	m	class:LevelSub
+skipNodes	LevelSub.h	/^	std::vector<std::vector<std::set<int> > > skipNodes;$/;"	m	class:LevelSub
+start	runtimecounter.cpp	/^void Runtimecounter::start(){$/;"	f	class:Runtimecounter
+stop	runtimecounter.cpp	/^void Runtimecounter::stop(){$/;"	f	class:Runtimecounter
+subgraphSearch	LevelSub.cpp	/^void LevelSub::subgraphSearch()$/;"	f	class:LevelSub
+subgraphSearch	LevelSub.cpp	/^void LevelSub::subgraphSearch(std::vector<std::pair<int, int> > &sorted, std::vector<int> &embedding, std::vector<std::vector<int> > &cand,$/;"	f	class:LevelSub
+subgraphSearchD	LevelSub.cpp	/^bool LevelSub::subgraphSearchD(int i, std::vector<std::pair<int, int> > &sorted, std::vector<int> &embedding,$/;"	f	class:LevelSub
+t1	runtimecounter.h	/^	timeval t1;$/;"	m	class:Runtimecounter
+t2	runtimecounter.h	/^	timeval t2;$/;"	m	class:Runtimecounter
+update2	LevelSub.cpp	/^void LevelSub::update2(std::vector<int> &embedding, std::vector<int> &label_q)$/;"	f	class:LevelSub
+vertex_iterator_t	LevelSub.h	/^typedef graph_traits<Graph>::vertex_iterator vertex_iterator_t;$/;"	t
+vertex_t	LevelSub.h	/^typedef graph_traits<Graph>::vertex_descriptor vertex_t;$/;"	t
+~LevelSub	LevelSub.cpp	/^LevelSub::~LevelSub()$/;"	f	class:LevelSub
